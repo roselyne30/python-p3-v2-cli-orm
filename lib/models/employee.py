@@ -5,7 +5,7 @@ from models.department import Department
 
 class Employee:
 
-    # Dictionary of objects saved to the database.
+    #Dictionary of objects saved to the database.
     all = {}
 
     def __init__(self, name, job_title, department_id, id=None):
